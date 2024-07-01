@@ -8,7 +8,7 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
 </style>
 </head>
 <body class="w3-light-grey">
@@ -56,7 +56,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <div class="w3-container"></div>
             <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Research Interests</h2>
             <div class="w3-container">
-            <p>My research focuses on the development of quantum computing algorithms for particle physics applications. 
+            <p class="w3-opacity">My research focuses on the development of quantum computing algorithms for particle physics applications. 
                 I am interested in exploring the potential advantages that quantum computers can provide, specifically for the modelling of QCD process in high energy collisions and simulating Quantum Field Theories.</p>
             </div>
         </div>
@@ -64,21 +64,21 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container w3-card w3-white w3-margin-bottom">
             <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Selected Papers</h2>
             <div class="w3-container">
-                <h5 class="w3-text-blue"><b>With a Little Help from Photons: Quantum Field Theory on Continuous-Variable Quantum Computers </a></b></h5>
+                <h5 class="w3-text-blue"><b>Simulating quantum field theories on continuous-variable quantum computers</a></b></h5>
                 <p  class="w3-text-blue"><a href="Papers/WithALittleHelpFromPhotons.pdf" style="text-decoration:none;"><i class="fa fa-file-pdf-o w3-margin-right w3-large w3-text-blue"></i>pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <a href="Citations/WithALittleHelpFromPhotons.txt" style="text-decoration:none;"><i class="fa fa-share-alt w3-margin-right w3-large w3-text-blue"></i>cite</a></p> 
-                <p>In this paper, we develop a measurement-based quantum-computing approach to simulating the real-time evolution of a quantum state 
+                <p class="w3-opacity">In this paper, we develop a measurement-based quantum-computing approach to simulating the real-time evolution of a quantum state 
                     on a continuous-variable quantum computer.</p>
             </div>
             <div class="w3-container">
                 <h5 class="w3-text-blue"><b>Collider events on a quantum computer </b></h5>
                 <p  class="w3-text-blue"><a href="Papers/ColliderEvents.pdf" style="text-decoration:none;"><i class="fa fa-file-pdf-o w3-margin-right w3-large w3-text-blue"></i>pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <a href="Citations/ColliderEvents.txt" style="text-decoration:none;"><i class="fa fa-share-alt w3-margin-right w3-large w3-text-blue"></i>cite</a></p> 
-                <p>We present the first realistic simulation of a parton shower on a quantum device, producing pseudo-data which gives a good description of real-life data from the LEP experiment.</p>
+                <p class="w3-opacity">We present the first realistic simulation of a parton shower on a quantum device, producing pseudo-data which gives a good description of real-life data from the LEP experiment.</p>
             </div>
         </div>
       <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Work Experience</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Experience</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Institute of Particle Physics Phenomenology, Durham University</b></h5>
           <h6 class="w3-opacity">Postdoctoral Research Associate</h6>
@@ -99,6 +99,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <h5 class="w3-opacity"><b>Imperial College London</b></h5>
           <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2019 - May 2023</h6>
           <h6 class="w3-opacity">Ph.D. Physics </h6>
+          <h6 class="w3-opacity"> Thesis: Event Generation on Quantum Computers </h6>
+          <p class="w3-opacity">The synthesis of high quality simulated data from event generators is essential in the search for new physics at collider experiments. Modern event generator algorithms use Monte Carlo processes to simulate the evolution of an event from the collision of high energy particles to the formation of long-lived particles. One of the major building blocks of the event generation process is the QCD parton shower. However, despite being a key aspect of modern event generation, the core algorithms which simulate the showering process have remained unchanged since the 1980s, and will become a limiting factor as we move to an era of higher energy and higher luminosity experiments. 
+
+            With the rapid development of quantum computation, dedicated algorithms are required which exploit the potential that quantum computing provides to address problems in high energy physics. In this thesis, we present three novel quantum algorithms for the simulation of a QCD parton shower. The first algorithm provides a proof-of-principle, classical Monte Carlo inspired approach with the ability to simulate two shower steps of a collinear QCD model. By exploiting the compact circuit architecture of the quantum walk, one can drastically reduce the quantum resources required to simulate a shower step. The second algorithm shows that, in this framework, the quantum parton shower can be extended to simulate realistic shower depths whilst using fewer quantum resources. Finally, the third algorithm utilises a discrete QCD approach to parton showering to include kinematics in the shower, simulating a dipole cascade. In this construction, the algorithm has achieved the first data comparison between synthetic data produced using a Noisy Intermediate-Scale Quantum (NISQ) device, and ``real-life" archival collider data from the Large Electron Positron collider. The three algorithms represent the development of quantum algorithms for the simulation of parton showers, acting as a first step towards a fully quantum simulation of a high energy collision event. </p>
+          <p  class="w3-text-blue"><a href="Papers/ColliderEvents.pdf" style="text-decoration:none;"><i class="fa fa-file-pdf-o w3-margin-right w3-large w3-text-blue"></i>pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Citations/ColliderEvents.txt" style="text-decoration:none;"><i class="fa fa-share-alt w3-margin-right w3-large w3-text-blue"></i>cite</a></p> 
           <hr>
         </div>
         <div class="w3-container">
