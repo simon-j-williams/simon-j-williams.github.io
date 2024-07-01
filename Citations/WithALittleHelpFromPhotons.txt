@@ -1,0 +1,10 @@
+@article{Abel:2024aof,
+    author = "Abel, Steven and Spannowsky, Michael and Williams, Simon",
+    title = "{With a Little Help from Photons: Quantum Field Theory on Continuous-Variable Quantum Computers}",
+    eprint = "2403.10619",
+    archivePrefix = "arXiv",
+    primaryClass = "quant-ph",
+    reportNumber = "IPPP/24/10",
+    month = "3",
+    year = "2024"
+}
