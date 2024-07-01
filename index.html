@@ -9,6 +9,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 #more {display: none;}
+.button {
+  background-color: none;
+  font-family: "Roboto", sans-serif
+}
 html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
 </style>
 </head>
@@ -138,7 +142,7 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
             Intermediate-Scale Quantum (NISQ) device, and ``real-life" archival collider data from the Large Electron 
             Positron collider. The three algorithms represent the development of quantum algorithms for the simulation 
             of parton showers, acting as a first step towards a fully quantum simulation of a high energy collision 
-            event. </span></p><button onclick="myFunction()" id="myBtn">Read more</button>
+            event. </span><b class="w3-text-blue" onclick="myFunction()" id="myBtn"> more</b></p> 
           <p  class="w3-text-blue"><a href="Papers/ColliderEvents.pdf" style="text-decoration:none;"><i class="fa fa-file-pdf-o w3-margin-right w3-large w3-text-blue"></i>pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="Citations/ColliderEvents.txt" style="text-decoration:none;"><i class="fa fa-share-alt w3-margin-right w3-large w3-text-blue"></i>cite</a></p> 
           <hr>
@@ -178,11 +182,11 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
-      btnText.innerHTML = "Read more"; 
+      btnText.innerHTML = "more"; 
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
-      btnText.innerHTML = "Read less"; 
+      btnText.innerHTML = "less"; 
       moreText.style.display = "inline";
     }
   }
