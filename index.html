@@ -13,6 +13,16 @@
   background-color: none;
   font-family: "Roboto", sans-serif
 }
+.fa.fa-twitter::before {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    content: "";
+    background-color: currentColor;
+    -webkit-mask: url('data:image/svg+xml;utf8,<svg viewBox="0 -8 26 30" xmlns="http://www.w3.org/2000/svg"><g><path fill="white" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>') no-repeat center;
+    mask: url('data:image/svg+xml;utf8,<svg viewBox="0 -8 26 30" xmlns="http://www.w3.org/2000/svg"><g><path fill="white" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>') no-repeat center;
+    background-position: center 3px;
+}
 html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
 </style>
 </head>
@@ -63,10 +73,10 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
             <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-margin-right w3-xxlarge w3-text-blue">
             </i>Research Interests</h2>
             <div class="w3-container">
-            <p class="w3-opacity">My research focuses on the development of quantum computing algorithms for 
-              particle physics applications. I am interested in exploring the potential advantages that quantum 
+            <p><span class="w3-text-blue">My research focuses on the development of quantum computing algorithms for 
+              particle physics applications.</span><span class="w3-opacity"> I am interested in exploring the potential advantages that quantum 
               computers can provide, specifically for the modelling of QCD process in high energy collisions and 
-              simulating Quantum Field Theories.</p>
+              simulating Quantum Field Theories.</span></p>
             </div>
         </div>
 
@@ -142,9 +152,9 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
             Intermediate-Scale Quantum (NISQ) device, and ``real-life" archival collider data from the Large Electron 
             Positron collider. The three algorithms represent the development of quantum algorithms for the simulation 
             of parton showers, acting as a first step towards a fully quantum simulation of a high energy collision 
-            event. </span><span class="w3-text-blue" onclick="myFunction()" id="myBtn">  more</span></p> 
-          <p  class="w3-text-blue"><a href="Papers/ColliderEvents.pdf" style="text-decoration:none;"><i class="fa fa-file-pdf-o w3-margin-right w3-large w3-text-blue"></i>pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="Citations/ColliderEvents.txt" style="text-decoration:none;"><i class="fa fa-share-alt w3-margin-right w3-large w3-text-blue"></i>cite</a></p> 
+            event. </span><span class="w3-text-blue" onclick="moreFunc()" id="myBtn">  more</span></p> 
+          <p  class="w3-text-blue"><a href="Papers/Thesis.pdf" style="text-decoration:none;"><i class="fa fa-file-pdf-o w3-margin-right w3-large w3-text-blue"></i>pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Citations/Thesis.txt" style="text-decoration:none;"><i class="fa fa-share-alt w3-margin-right w3-large w3-text-blue"></i>cite</a></p> 
           <hr>
         </div>
         <div class="w3-container">
@@ -166,16 +176,13 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
 
 <footer class="w3-container w3-blue w3-center w3-margin-top">
   <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <a href=""><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://x.com/wills_si"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/simon-jonathan-williams-7150b1108?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
 </footer>
 
 <script>
-  function myFunction() {
+  function moreFunc() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("myBtn");

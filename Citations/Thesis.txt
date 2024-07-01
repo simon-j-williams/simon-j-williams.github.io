@@ -1,0 +1,7 @@
+@phdthesis{Williams:2023muq,
+    author = "Williams, Simon Jonathan",
+    title = "{Event generation on quantum computers}",
+    doi = "10.25560/105867",
+    school = "Imperial Coll., London",
+    year = "2023"
+}
