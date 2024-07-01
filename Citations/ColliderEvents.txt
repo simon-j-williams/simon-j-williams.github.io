@@ -1,0 +1,12 @@
+@article{Gustafson:2022dsq,
+    author = {Gustafson, G\"osta and Prestel, Stefan and Spannowsky, Michael and Williams, Simon},
+    title = "{Collider events on a quantum computer}",
+    eprint = "2207.10694",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    doi = "10.1007/JHEP11(2022)035",
+    journal = "JHEP",
+    volume = "11",
+    pages = "035",
+    year = "2022"
+}
