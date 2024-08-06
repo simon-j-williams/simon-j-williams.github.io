@@ -1,0 +1,10 @@
+@article{Ingoldby:2024fcy,
+    author = "Ingoldby, James and Spannowsky, Michael and Sypchenko, Timur and Williams, Simon",
+    title = "{Enhancing Quantum Field Theory Simulations on NISQ Devices with Hamiltonian Truncation}",
+    eprint = "2407.19022",
+    archivePrefix = "arXiv",
+    primaryClass = "quant-ph",
+    reportNumber = "IPPP/24/37",
+    month = "7",
+    year = "2024"
+}
